@@ -2,9 +2,9 @@
 
 abstract class Shape
 {
-    //no son private pq si lo fuera solo la clase shape puede acceder directamnete a esas propiedades
-    //pero aqui triangle y rectangle tienen que acceder
-    //para la propia clase y sus hijas es protected
+     //no son privat pq si ho fora sol la classe shape pot accedir directamnete a aquestes propietats
+    //Però aqui triangle i rectangle tenen que accedir
+    //per a la pròpia classe i les seves filles estan protegits
     protected float $ample;
     protected float $alt;
 
@@ -26,7 +26,7 @@ class Triangle extends Shape
 {
     public function calcularArea(): float
     {
-        //no es estrictamente necesario pero creamos variable para guardar resultado ahi y poder usarlo despues (para este ejercicio creo que bastaria devolver con el return)
+        //no és estrictament necessari però cream variables per guardar el resultat ahi i poder usar-lo després (per a aquest exercici creo que bastaria devolver amb el retorn)
         $area = ($this->alt * $this->ample) / 2;
         return $area;
     }
@@ -44,7 +44,8 @@ class Rectangle extends Shape
 
 $triangle = new Triangle(7, 29);
 $rectangle = new Rectangle(10, 41);
-//ponemos aqui el echo porque las funciones solo devuelven el resultado pero no lo muestran como en el ej.Animal 
+ 
+//posem aqui l'echo pq les funciones nomes tornen resultat pero no el mostren com a l'ex. Animal
 echo $triangle->calcularArea();
 echo "\n";
 echo $rectangle->calcularArea();
