@@ -11,7 +11,7 @@ Exercicis de PHP orientats a la programació orientada a objectes (POO), aplican
 ## Instal·lació i execució
 
 1. Clonar el repositori:
-   `git clone [enllaç del repositori]`
+   `git clone https://github.com/jordiartigues/Tasca-S1.05.-POO-2.git`
 
 2. Obrir el projecte amb Visual Studio Code.
 

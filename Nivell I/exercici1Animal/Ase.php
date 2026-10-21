@@ -6,7 +6,7 @@ class Ase extends Animal
 {
     public function parlar(): void
     {
-        echo "Hi hooooo, hi ho.";
+        echo $this->getNom() . " diu: Hi hooooo, hi ho.";
     }
 }
 

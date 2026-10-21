@@ -7,7 +7,7 @@ class Gall extends Animal
 
     public function parlar(): void
     {
-        echo "Kikirikiiiiiiiiiiii";
+        echo $this->getNom() . " diu: Kikirikiiiiiiiiiiii";
     }
 }
 
