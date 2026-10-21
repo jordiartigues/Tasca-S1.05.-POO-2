@@ -1,33 +1,53 @@
 # Tasca S1.05 - POO 2
 
-Exercicis de PHP orientats a la programació orientada a objectes (POO), aplicant conceptes com l'herència, l'abstracció, els mètodes estàtics i l'encapsulació.
+Exercicis de PHP per practicar la programació orientada a objectes (POO), treballant conceptes com les classes abstractes, l'herència, la sobreescriptura de mètodes i l'encapsulació.
 
 ## Tecnologies
 
-* PHP
-* XAMPP
-* Visual Studio Code
+- PHP
+- XAMPP
+- Visual Studio Code
 
 ## Instal·lació i execució
 
 1. Clonar el repositori:
-   `git clone https://github.com/jordiartigues/Tasca-S1.05.-POO-2.git`
+
+   ```bash
+   git clone https://github.com/jordiartigues/Tasca-S1.05.-POO-2.git
+   ```
 
 2. Obrir el projecte amb Visual Studio Code.
 
-3. Entrar a la carpeta del nivell corresponent:
-   `cd "Nivell I"`
+3. Accedir a la carpeta del nivell:
 
-4. Entrar a la carpeta de l'exercici:
-   `cd exercici1Animal` o `cd exercici2Formes`
+   ```bash
+   cd "Nivell I"
+   ```
 
-5. Executar l'exercici:
-   `php index.php`
+4. Accedir a la carpeta de l'exercici que es vol executar:
+
+   ```bash
+   cd exercici1Animal
+   ```
+
+   O bé, per al segon exercici:
+
+   ```bash
+   cd exercici2Formes
+   ```
+
+5. Executar el fitxer PHP corresponent:
+
+   ```bash
+   php index.php
+   ```
+
+   Per als exercicis que generen contingut HTML, també es pot iniciar Apache des de XAMPP i obrir el fitxer a través del navegador.
 
 ## Estructura del projecte
 
 ```text
-Tasca-S1.05. POO 2/
+Tasca-S1.05.-POO-2/
 ├── Nivell I/
 │   ├── exercici1Animal/
 │   │   ├── Animal.php
@@ -35,7 +55,7 @@ Tasca-S1.05. POO 2/
 │   │   ├── Gall.php
 │   │   └── index.php
 │   │
-│   └── exercici2/
+│   └── exercici2Formes/
 │       ├── Shape.php
 │       ├── Triangle.php
 │       ├── Rectangle.php
@@ -46,8 +66,8 @@ Tasca-S1.05. POO 2/
 
 ## Exercicis
 
-* Exercici 1: Herència i mètodes sobrescrits.
-* Exercici 2: Classes abstractes, herència i encapsulació.
+- **Exercici 1:** Classes abstractes, herència i sobreescriptura de mètodes mitjançant diferents tipus d'animals.
+- **Exercici 2:** Classes abstractes, herència i encapsulació mitjançant diferents formes geomètriques.
 
 ## Autor
 
